@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between Argument and Parameter</title>
+</head>
+<body>
+    <table border="2" >
+        <style></style>
+     
+        <tr>
+            <th>S.NO</th>
+            <th>Argument</th>
+            <th>Parameter</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+           <td>When a function is called, the values that are passed during the call are called as arguments.</td>
+           <td>the values which are defined at the time of function prototype or definition of function are called as parameters.</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>They are also called Acutal Parameters.</td>
+            <td>They are also called Formal Parameters.</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>These are used in function call statement to send value from the calling function to the receiving function.</td>
+            <td>These are used in function header of the called function to receive the value from the arguments.</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td colspan="2">
+                <pre>
+            #include......
+            int mult(int a, int b) // Here, a and b are parameters.
+            {
+                 return a*b;
+            }
+            int main()
+            {
+                int num1=10, num2=20, result;
+                result= mult(num1,num2); // mult is called and num1 & num2 are arguments.
+                printf("The multiplication is %d",result);
+                return 0;
+            }
+            </pre>
+            </td>
+        </tr>
+
+    </table>
+    <script>
+        function Add(a,b) // a & b are parameters.
+        {
+            return a+b;
+        }
+        alert("The sum is" + " = "+ Add(13,28)); //here 13 & 28 are arguments.
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role of var in JS</title>
+</head>
+<body>
+    <h1>Var</h1>
+    <p>The var keyword is used to create a new variable in the current context or scope being used.
+Var keyword declares both local and global variables. It depends upon the way it is declared. If the var keyword is used to declare variable outside the function or block then it is declared as global variable. 
+</p>
+<script>
+    //Here a is global variable. 
+    //So, it is accessible inside as well as outside the function.
+    var a = 45;
+    
+    function alpha(){
+        alert(a);
+
+    }
+    alpha();
+    alert(a);
+</script>
+<p>
+    When the variable is declared inside the function or block then at that time, the variable shows behavior as local variable. This means that the variable can be accessed only inside the block or that function.
+</p>
+</body>
+</html>

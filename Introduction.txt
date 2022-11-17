@@ -1,0 +1,10 @@
+Javascript
+Javascript is the most popular programming language used primarily by Web browsers to create a dynamic and interactive experience for the user.
+Displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc are possible because of Javascript.
+It is the third layer of the layer cake of standard web technologies, two of which(HTML & CSS). It helps developing great front-end as well as back-end softwares using different Javascript based frameworks like jQuery, Node.JS,Angular, React, Ember.js and many more.
+Applications of Javascript programming
+ 1. Client side validation : Javascript plays an important role in validting and verifying user input before submitting it to the server.
+ 2. Manipulating HTML pages:  It helps in adding and deleting any HTML tag very easily using Javascript and modify HTML to change its look and feel based on different devices and requirements.
+ 3. User Notifactions: We can use Javascript to raise dynamic pop-ups on the webpages to give different types of notifications to our website visitors.
+ 4. Back-end Data loading: Javascript provides Ajax library which helps in loading back-end data while we are doing some other processing. It gives an amazing experience to our website visitors.
+ and many more.
